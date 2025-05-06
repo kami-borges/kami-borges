@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A MaxPro é uma confeitaria especializada em criar bolos deliciosos e irresistíveis, feitos com carinho e ingredientes de alta qualidade. ">
-    <meta name="keywords" content="MaxPro, bolos, saborosos, delícioso.">
-    <title>MaxPro</title>
+    <meta name="description" content="A BoloMix é uma confeitaria especializada em criar bolos deliciosos e irresistíveis, feitos com carinho e ingredientes de alta qualidade. ">
+    <meta name="keywords" content="BoloMix, bolos, saborosos, delícioso.">
+    <title>Bolomix Delícias Artesanais</title>
 
     <!-- CSS Bootstrap -->
 
@@ -29,10 +29,452 @@
     <link href="https://cdn.jsdelivr.net/npm/swiper@9.4.0/swiper-bundle.min.css" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
+
+  <!-- botao para alternar menu mobile -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"> </i>
+
+  <!-- Cabeçalho -->
+  <header id="header">
+      <div class="d-flex flex-column"> 
+
+        <div class="perfil">
+            <img src="img/logo.jpg" class="img-fluid rounded-circle">
+
+            <h1 class="text-light"> BoloMix </h1>
+
+            <div class="social-links">
+                <a href="#" class="twitter" target="_blank">
+                    <i class="bx bxl-twitter"> </i>
+             </a>
+                <a href="#" class="instagram" target="_blank">
+                            <i class="bx bxl-instagram"> </i>
+                   </a>
+                   <a href="#" class="facebook" target="_blank">
+                                <i class="bx bxl-facebook"> </i>
+                      </a>
+                       <a href="#" class="linkedin" target="_blank">
+                               <i class="bx bxl-github"> </i>
+                      </a>
+            </div> <!-- redes sociais -->
+        </div>
+
+        </div> <!-- fim perfil -->
+
+        <nav id="navbar" class="nav-menu navbar">
+
+            <ul>
+                <li>
+                    <a href="#hero" class="nav-link scrollto active">
+                        <i class="bi bi-house"> </i>
+                        <span> Home </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#sobre" class="nav-link scrollto">
+                        <i class="bx bx-user"> </i>
+                        <span> Sobre </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#resume" class="nav-link scrollto">
+                        <i class="bi bi-file-earmark-text"> </i>
+                        <span> Resumo </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#portfolio" class="nav-link scrollto">
+                        <i class="bi bi-images"> </i>
+                        <span> Portfolio </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services" class="nav-link scrollto">
+                        <i class="bi bi-hdd-stack navicon"> </i>
+                        <span> Serviços </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contato" class="nav-link scrollto">
+                        <i class="bi bi-envelope navicon"> </i>
+                        <span> Contato </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+      </div>
+  </header>
+
+
+  <!-- HERO -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+
+    <div class="hero-container">
+
+        <h2>BoloMix</h2>
+        <p> Fábrica de Bolos:
+            <span class="typed" data-typed-items="Choninho, Brigadeiro, Morango">  </span>
+        </p>
+    </div>
+
+</section>
+<!-- fim Hero -->
+
+<main id="main">
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Sobre Nós</h2>
+                <P> 
+                    Na Bolomix, bolo não é só sobremesa — é memória, aconchego e alegria em forma de massa fofinha e cobertura caprichada. Aqui, você encontra um mix delicioso de sabores: bolos caseiros, bolos de pote, bolos de festa personalizados e muito mais! Trabalhamos com ingredientes de qualidade, receitas cheias de afeto e aquele toque especial que só quem ama o que faz pode oferecer.
+                </P>
+            </div>
+
+            <div class="row">
+
+                <!-- img -- Foto da Marca -->
+                 <div class="col-lg-4">
+
+                    <img src="img/logo3.png" alt="" class="img-fluid">
+
+                 </div>
+
+                 <!-- Textos -->
+                 <div class="col-lg-8 pt-lg-0 content">
+
+                    <h3>Chocolates Artesanais</h3>
+
+                    <p class="fst-italic">
+                        Frase motivacional
+                    </p>
+
+                    <div class="row"> 
+
+                        <div class="col-lg-6">
+                            <ul>
+                                <li>
+                                    <i class="bi bi-calendar-date"> </i>
+                                    <!-- <strong>Inauguração:</strong> -->
+                                    <span>24/01/2025</span>
+                                </li>
+                                
+                                <li>
+                                    <i class="bi bi-instagram"> </i>
+                                    <strong>Instagram:</strong>
+                                    <span>@bolomix.oficial</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-whatsapp"></i>
+                                        <strong>whatsapp:</strong>
+                                        <span> (11) 91234-5678</span>
+                                    </I>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <Ul>
+                                <li>
+                                    <i class="bi bi-geo-alt-fill"> </i>
+                                    <strong>Local</strong>
+                                    <span>São Paulo</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-geo-fill"> </i>
+                                    <!-- <strong>Endereço:</strong> -->
+                                     <span>Rua das Acácias, 123
+                                        Bairro Jardim Doce
+                                        Cidade Encantada – SP
+                                        CEP: 12345-678</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-envelope"> </i>
+                                    <!-- <strong>E-email.com:</strong> --> 
+                                     <span>@bolomix.com.br</span>
+                                </li>
+                            </Ul>
+                        </div>
+                    </div>
+
+                    <P>
+                        A mais nova e maior loja de Bolos.
+                    </P>
+                 </div>
+
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- Consquistas -->
+    <section id="conquistas" class="conquistas">
+        
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Conquistas</h2>
+                <p>Hoje celebramos uma conquista especial: a Bolomix foi eleita a confeitaria mais querida do bairro!
+                    Nada disso seria possível sem o carinho dos nossos clientes, que transformam cada bolo em um momento inesquecível.
+                    Seguimos com a missão de levar sabor, afeto e alegria para cada lar. Obrigado por fazer parte dessa doce jornada!</p>
+            </div>
+
+            <div class="row">
+              
+                <!-- Produto 1 -->
+                <article class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+
+                    <div class="count-box">
+
+                        <i class="bi bi-cake"></i>
+
+                        <span class="purecounter" data-purecounter-start="0" data-purecounter-end="258" data-purecounter-duration="2">
+                        </span>
+
+                        <p>
+                            <strong>Bolo artesanais</strong>
+                            Ao Leite, com sabor de casa.
+                        </p>
+
+                    </div>
+                </article>
+
+
+                <!-- Produto 2 -->
+                    
+                <article class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+
+                    <div class="count-box">
+
+                        <i class="count-box-i bx bxs-coffee-togo"></i>
+
+                        <span class="purecounter" data-purecounter-start="0" data-purecounter-end="27" data-purecounter-duration="2">
+                        </span>
+
+                        <p>
+                            <strong>Café</strong> 
+                            expresso
+                        </p>
+
+                    </div>
+                </article>
+                
+                <!-- Produto 3 -->
+                <article class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+
+                    <div class="count-box">
+
+                        <i class="bi bi-eraser-fill"></i>
+
+                        <span class="purecounter" data-purecounter-start="0" data-purecounter-end="63" data-purecounter-duration="2">
+                        </span>
+
+                        <p>
+                            <strong>Chocolate</strong>
+                            70%
+                        </p>
+
+                    </div>
+                </article>
+                <!-- Produto 4 -->
+                <article class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+
+                    <div class="count-box">
+
+                        <i class="bi bi-cookie"></i>
+
+                        <span class="purecounter" data-purecounter-start="0" data-purecounter-end="1825" data-purecounter-duration="2">
+                        </span>
+
+                        <p>
+                            <strong>Cookies</strong>
+                            Ao Leite
+                        </p>
+
+                    </div>
+                </article>
+                
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Habilidades / Top Produtos Vendidos -->
+    <section id="skills" class="skills section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2> Vendas </h2>
+                <p>
+                    Conheça nossos números
+                </p>
+            </div>
+
+            <div class="row skills-content">
+
+
+           <!-- Primeira Coluna -->
+         <div class="col-lg-6" data-aos="fade-up">
+
+         <div class="progress">
+            <span class="skill">
+            Consoles
+            <i class="val">85%</i>
+           </span>
+           <div class="progress-bar-bg">
+            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                aria-valuemax="100"> </div>
+           </div>
+          </div>
+
+        </div> <!-- fim col-lg-6 -->
+
+
+             <!-- Segunda Coluna -->
+         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+         <div class="progress">
+        <span class="skill">
+            XBOX Series S
+            <i class="val">37%</i>
+        </span>
+        <div class="progress-bar-bg">
+            <div class="progress-bar" role="progressbar" aria-valuenow="37" aria-valuemin="0"
+                aria-valuemax="100"> </div>
+        </div>
+    </div>
+
+</div> <!-- fim col-lg-6 -->
+
+                    
+
+                </div>
+            </div> <!-- skills-content -->
+        </div>
+    </section>
+ 
+    <!-- Resumo sobre -->
+    <section id="resume" class-resume>
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre a Bolomix</h2>
+                <p>Na Bolomix, oferecemos bolos deliciosos, fresquinhos e feitos com todo o carinho para tornar seus momentos ainda mais especiais. Cada fatia é uma explosão de sabor, criada a partir de ingredientes selecionados e receitas únicas. Nossa missão é proporcionar a melhor experiência doce para os nossos clientes, seja para uma celebração ou um simples prazer do dia a dia.</p>
+              </div>
+              
+              <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                  <h3 class="resume-title">Nossa História</h3>
+                  <div class="resume-item pb-0">
+                    <h4>Bolomix - Tradição e Sabor</h4>
+                    <p><em>Com mais de 10 anos de experiência, a Bolomix se especializou em criar bolos personalizados para todos os tipos de ocasiões. Desde o sabor clássico até combinações inovadoras, temos sempre algo que vai conquistar seu paladar.</em></p>
+                    <ul>
+                      <li>Rua das Acácias, 123 São Paulo, SP</li>
+                      <li>(11) 91234-5678</li>
+                      <li>contato@bolomix.com.br</li>
+                    </ul>
+                  </div>
+              
+                  <h3 class="resume-title">Nossos Produtos</h3>
+                  <div class="resume-item">
+                    <h4>Bolos Artesanais</h4>
+                    <h5>Disponível o ano todo</h5>
+                    <p><em>Bolos frescos e feitos sob encomenda, com massa fofinha e recheios irresistíveis. De chocolate a frutas, temos o bolo perfeito para qualquer ocasião.</em></p>
+                    <p>Com opções para dietas especiais (sem glúten, sem lactose), buscamos sempre atender as necessidades de todos os nossos clientes, sem abrir mão do sabor!</p>
+                  </div>
+                  <div class="resume-item">
+                    <h4>Bolos Personalizados</h4>
+                    <h5>Para eventos e festas</h5>
+                    <p><em>Adoramos fazer parte dos seus momentos especiais! Criamos bolos personalizados para aniversários, casamentos, chá de bebê, e muito mais. Combinamos sabores, decorações e temáticas para tornar seu evento único.</em></p>
+                  </div>
+                </div>
+              
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                  <h3 class="resume-title">Experiência Profissional</h3>
+                  <div class="resume-item">
+                    <h4>Chef de Confeitaria - Fundadora</h4>
+                    <h5>2012 - Presente</h5>
+                    <p><em>Bolomix, São Paulo, SP</em></p>
+                    <ul>
+                      <li>Criação de receitas exclusivas e desenvolvimento de novos sabores de bolos</li>
+                      <li>Gestão da produção diária de bolos e doces, garantindo qualidade e frescor</li>
+                      <li>Atendimento personalizado para eventos e encomendas especiais</li>
+                      <li>Treinamento da equipe de confeiteiros para manter os padrões elevados de qualidade</li>
+                    </ul>
+                  </div>
+                  <div class="resume-item">
+                    <h4>Assistente de Confeitaria</h4>
+                    <h5>2009 - 2011</h5>
+                    <p><em>Delícias da kamis, São Paulo, SP</em></p>
+                    <ul>
+                      <li>Auxílio na produção de bolos e doces para diferentes tipos de festas</li>
+                      <li>Preparação de massas e recheios, seguindo rigorosamente as receitas e padrões de qualidade</li>
+                      <li>Suporte na decoração de bolos e montagem de encomendas personalizadas</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+        
+              </div>
+
+    </section>
+
+    <!-- Portfolio / Galeria -->
+    <section id="portfolio" class="portfolio">
+
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Nossos Bolos</h2>
+
+            <p>Na Bolomix, nosso catálogo de produtos é pensado para atender todos os gostos e ocasiões. Trabalhamos com uma variedade de bolos artesanais, feitos com ingredientes selecionados para garantir a melhor qualidade e sabor. Desde os clássicos, como o bolo de chocolate e o de cenoura, até opções mais sofisticadas, como bolos de frutas e recheios exclusivos, temos sempre algo para surpreender o seu paladar.</p>
+
+            <p>Além dos bolos tradicionais, oferecemos bolos personalizados para todos os tipos de eventos: aniversários, casamentos, chá de bebê, festas corporativas e muito mais. Cada bolo é feito sob encomenda, garantindo frescor e uma decoração única que combina com a temática do seu evento.</p>
+            
+            <p>Para atender às necessidades de todos os nossos clientes, também temos opções sem glúten e sem lactose, sem abrir mão do sabor irresistível que caracteriza a nossa marca. Seja para uma simples comemoração ou um grande evento, na Bolomix você encontra o bolo perfeito para deixar tudo ainda mais especial.</p>
+            
+        </div>
+    </div>
+
+    </section>
+
+    <!-- Serviços ou Outros Produtos -->
+    <section id="services" class="services">
+
+    </section>
+
+    <!-- Avaliações dos amigos -->
+    <section id="depoimentos" class="depoimentos"> 
+
+    </section>
+
+    <!-- Formulario -->
+    <section id="contato" class="contato">
+        
+    </section>
+
+
+
+</main>
+
+<footer id="footer">
+
+</footer>
 
 
 
