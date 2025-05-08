@@ -95,4 +95,10 @@ body {
     background-position: center;       
   }
   
-  
+  .game-title {
+    font-size: 2.5rem;
+    color: #293447;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+}
